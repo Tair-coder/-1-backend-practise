@@ -1,6 +1,6 @@
 const sql = require("mysql");
 const connection = sql.createConnection({
-  database: "gi",
+  database: "training_db",
   user: "root",
   password: "",
 });

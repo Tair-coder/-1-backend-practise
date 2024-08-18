@@ -1,7 +1,7 @@
 const express = require("express");
 const connection = require("../connect");
 const route = express.Router();
-
+// const
 route.get("/users", (req, res, next) => {
   connection.query("SELECT * FROM users", (err, result) => {
     if (!err) {
